@@ -1,23 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import Hexashop from './components/Hexashop'
+import HomePage from './components/HomePage'
+import AboutPage from './components/AboutPage'
+import ContactPage from './components/ContactPage'
+import MenPage from './components/MenPage'
+import WomenPage from './components/WomenPage'
+import KidPage from './components/KidPage'
+import './components/Style.css'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BrowserRouter>
+      <Hexashop/>
+      <Routes>
+      <Route path='/' element={<HomePage/>}/>
+      <Route path='/about' element={<AboutPage/>}/>
+      <Route path='/Men' element={<MenPage/>}/>
+      <Route path='/Women' element={<WomenPage/>}/>
+      <Route path='/Kid' element={<KidPage/>}/>
+      <Route path='/Contact' element={<ContactPage/>}/>
+
+
+
+
+      </Routes>
+
+
+      
+      </BrowserRouter>
     </div>
   );
 }
