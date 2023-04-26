@@ -4,6 +4,12 @@ const KidPage = () => {
   return (
     <div>
         <h1 className='hkid'>Kid's Latest</h1>
+        <text className='spring'/>
+        <text className='spring2'/>
+        <text className='spring3'/>
+        <text className='spring4'/>
+        <text className='spring5'/>
+        <text className='spring6'/>
         <h1 className='hkid2'>Classic Spring</h1>
         <h1 className='hkid3'>Classic Spring</h1>
         <h1 className='hkid4'>Classic Spring</h1>

@@ -1256,3 +1256,196 @@ line-height: 44px;
     top: 70px;
 background: #000000;
 }
+
+/* faqPage */
+
+
+.faq{
+position: absolute;
+width: 1440px;
+height: 450px;
+left: 0px;
+top: 480px;
+background: #D9D9D9;    
+}
+
+.hfaq{
+    position: absolute;
+    width: 289px;
+    height: 44px;
+    left: 100px;
+    top: 170px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;    
+}
+
+.hfaq2{
+    position: absolute;
+    width: 675px;
+    height: 44px;
+    left: 100px;
+    top: 510px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;    
+}
+
+.hfaq3{
+    position: absolute;
+    width: 246px;
+    height: 17px;
+    left: 100px;
+    top: 574px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;    
+}
+
+
+.hfaq4{
+    position: absolute;
+    width: 243px;
+    height: 17px;
+    left: 738px;
+    top: 574px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;   
+}
+
+.hfaq5{
+position: absolute;
+width: 128px;
+height: 22px;
+left: 710px;
+top: 870px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+}
+
+.pfaq{
+    position: absolute;
+    width: 715px;
+    height: 156px;
+    left: 100px;
+    top: 234px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify;
+    
+    color: #010101;   
+}
+
+.pfaq2{
+    position: absolute;
+    width: 505px;
+    height: 219px;
+    left: 100px;
+    top: 611px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify;       
+}
+
+.pfaq3{
+    position: absolute;
+    width: 505px;
+    height: 219px;
+    left: 738px;
+    top: 611px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify;
+    
+    color: #010101;    
+}
+
+
+/* spring all */
+
+.spring{
+    position: absolute;
+    width: 400px;
+    height: 565px;
+    left: 100px;
+    top: 234px;
+    
+    background: #D9D9D9;    
+}
+.spring2{
+    position: absolute;
+    width: 400px;
+    height: 565px;
+    left: 520px;
+    top: 234px;
+    
+    background: #D9D9D9;
+}
+
+.spring3{
+    position: absolute;
+    width: 400px;
+    height: 565px;
+    left: 940px;
+    top: 234px;
+    
+    background: #D9D9D9;
+}
+
+.spring4{
+    position: absolute;
+    width: 400px;
+    height: 565px;
+    left: 96px;
+    top: 819px;
+    
+    background: #D9D9D9;
+}
+
+.spring5{
+    position: absolute;
+    width: 400px;
+    height: 565px;
+    left: 516px;
+    top: 819px;
+    
+    background: #D9D9D9;
+}
+
+.spring6{
+    position: absolute;
+    width: 400px;
+    height: 565px;
+    left: 936px;
+    top: 819px;
+    
+    background: #D9D9D9;
+}

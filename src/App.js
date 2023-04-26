@@ -8,6 +8,7 @@ import WomenPage from './components/WomenPage'
 import KidPage from './components/KidPage'
 import './components/Style.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import FaqPage from './components/FaqPage';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Route path='/Women' element={<WomenPage/>}/>
       <Route path='/Kid' element={<KidPage/>}/>
       <Route path='/Contact' element={<ContactPage/>}/>
+      <Route path='/Faq' element={<FaqPage/>}/>
 
 
 
